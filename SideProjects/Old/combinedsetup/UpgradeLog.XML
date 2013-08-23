@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="combinedsetup">
+</Property><Property Name="Solution File" Value="C:\Users\Ananth\Documents\Visual Studio 2008\Projects\combinedsetup\combinedsetup.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Ananth\Documents\Visual Studio 2008\Projects\combinedsetup\combinedsetup.suo">
+</Property><Property Name="Date" Value="Wednesday, January 19, 2011">
+</Property><Property Name="Time" Value="20:06 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="combinedsetup.sln" Description="File successfully backed up as C:\Users\Ananth\Documents\Visual Studio 2008\Projects\combinedsetup\Backup\combinedsetup.sln">
+</Event><Event ErrorLevel="0" Project="" Source="combinedsetup.suo" Description="File successfully backed up as C:\Users\Ananth\Documents\Visual Studio 2008\Projects\combinedsetup\Backup\combinedsetup.suo">
+</Event><Event ErrorLevel="0" Project="combinedsetup.vdproj" Source="combinedsetup\combinedsetup.vdproj" Description="Project file successfully backed up as C:\Users\Ananth\Documents\Visual Studio 2008\Projects\combinedsetup\Backup\combinedsetup\combinedsetup.vdproj">
+</Event><Event ErrorLevel="0" Project="" Source="combinedsetup.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="combinedsetup.sln" Description="Converted">
+</Event></UpgradeLog>

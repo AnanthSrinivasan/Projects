@@ -1,0 +1,39 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{67e477dd-e073-4c11-9fef-8d00880bc617}</ProjectGuid>
+    <RubyInterpreter>C:\RailsInstaller\Ruby1.9.3\bin\ruby.exe</RubyInterpreter>
+    <RubyType>Ruby 1.9.3</RubyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="RubyApplication1.rb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="database_test.rb" />
+    <Content Include="database_fetch.rb" />
+    <Content Include="bind_param.rb" />
+    <Content Include="InterGalaxy.rb" />
+    <Content Include="main_file.rb" />
+    <Content Include="Ruby1.rb" />
+    <Content Include="Ruby2.rb" />
+    <Content Include="Ruby3.rb" />
+    <Content Include="TestInput.rb" />
+    <Content Include="transaction_create.rb" />
+    <Content Include="select_hash.rb" />
+    <Content Include="select_data.rb" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SapphireSteel Software\Ruby In Steel 2010\RubyInSteel.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

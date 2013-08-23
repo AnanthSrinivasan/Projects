@@ -1,0 +1,9 @@
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\csPlayMsg\bin\Debug\csPlayMsg.exe
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\csPlayMsg\bin\Debug\csPlayMsg.pdb
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\csPlayMsg\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\csPlayMsg\obj\Debug\csPlayMsg.Form1.resources
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\csPlayMsg\obj\Debug\csPlayMsg.csproj.GenerateResource.Cache
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\csPlayMsg\obj\Debug\csPlayMsg.exe
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\csPlayMsg\obj\Debug\csPlayMsg.pdb
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\Old\csPlayMsg\obj\Debug\csPlayMsg.exe
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\Old\csPlayMsg\obj\Debug\csPlayMsg.pdb

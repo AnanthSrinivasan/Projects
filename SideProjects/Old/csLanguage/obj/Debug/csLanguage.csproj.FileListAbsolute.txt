@@ -1,0 +1,7 @@
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\csLanguage\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\csLanguage\obj\Debug\csLanguage.Form1.resources
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\csLanguage\obj\Debug\csLanguage.csproj.GenerateResource.Cache
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\csLanguage\obj\Debug\csLanguage.exe
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\csLanguage\obj\Debug\csLanguage.pdb
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\csLanguage\csLanguage.exe
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\csLanguage\csLanguage.pdb

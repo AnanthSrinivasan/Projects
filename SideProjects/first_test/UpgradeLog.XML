@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="first_test">
+</Property><Property Name="Solution File" Value="C:\Users\amanoharan\Documents\Visual Studio 2010\Projects\first_test\first_test.sln">
+</Property><Property Name="Date" Value="Friday, May 03, 2013">
+</Property><Property Name="Time" Value="14:15 PM">
+</Property></Properties><Event ErrorLevel="0" Project="first_test" Source="first_test\first_test.vcproj" Description="Converting project file 'C:\Users\amanoharan\Documents\Visual Studio 2010\Projects\first_test\first_test\first_test.vcproj'.">
+</Event><Event ErrorLevel="1" Project="first_test" Source="first_test\first_test.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="first_test" Source="first_test\first_test.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="first_test" Source="first_test\first_test.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="first_test" Source="first_test\first_test.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="first_test" Source="first_test\first_test.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="first_test" Source="first_test\first_test.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="first_test" Source="first_test\first_test.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="first_test" Source="first_test\first_test.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="first_test" Source="first_test\first_test.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="first_test" Source="first_test\first_test.vcproj" Description="Done converting to new project file 'C:\Users\amanoharan\Documents\Visual Studio 2010\Projects\first_test\first_test\first_test.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="first_test" Source="first_test\first_test.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="first_test.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="first_test.sln" Description="Converted">
+</Event><Event ErrorLevel="3" Project="" Source="first_test.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="first_test.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="LocalTestRun.testrunconfig" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LocalTestRun.testrunconfig" Description="The file was converted to the current format.">
+</Event></UpgradeLog>

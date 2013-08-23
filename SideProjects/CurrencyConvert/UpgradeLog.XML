@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CurrencyConvert">
+</Property><Property Name="Solution File" Value="C:\Users\amanoharan\Documents\Visual Studio 2010\Projects\CurrencyConvert\CurrencyConvert.sln">
+</Property><Property Name="User Options File" Value="C:\Users\amanoharan\Documents\Visual Studio 2010\Projects\CurrencyConvert\CurrencyConvert.suo">
+</Property><Property Name="Date" Value="Friday, May 03, 2013">
+</Property><Property Name="Time" Value="13:05 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="CurrencyConvert.sln" Description="File successfully backed up as C:\Users\amanoharan\Documents\Visual Studio 2010\Projects\CurrencyConvert\Backup\CurrencyConvert.sln">
+</Event><Event ErrorLevel="0" Project="" Source="CurrencyConvert.suo" Description="File successfully backed up as C:\Users\amanoharan\Documents\Visual Studio 2010\Projects\CurrencyConvert\Backup\CurrencyConvert.suo">
+</Event><Event ErrorLevel="0" Project="CurrencyConvert" Source="CurrencyConvert\CurrencyConvert.csproj" Description="Project file successfully backed up as C:\Users\amanoharan\Documents\Visual Studio 2010\Projects\CurrencyConvert\Backup\CurrencyConvert\CurrencyConvert.csproj">
+</Event><Event ErrorLevel="0" Project="CurrencyConvert" Source="CurrencyConvert\Form1.cs" Description="File successfully backed up as C:\Users\amanoharan\Documents\Visual Studio 2010\Projects\CurrencyConvert\Backup\CurrencyConvert\Form1.cs">
+</Event><Event ErrorLevel="0" Project="CurrencyConvert" Source="CurrencyConvert\Form1.Designer.cs" Description="File successfully backed up as C:\Users\amanoharan\Documents\Visual Studio 2010\Projects\CurrencyConvert\Backup\CurrencyConvert\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CurrencyConvert" Source="CurrencyConvert\Program.cs" Description="File successfully backed up as C:\Users\amanoharan\Documents\Visual Studio 2010\Projects\CurrencyConvert\Backup\CurrencyConvert\Program.cs">
+</Event><Event ErrorLevel="0" Project="CurrencyConvert" Source="CurrencyConvert\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\amanoharan\Documents\Visual Studio 2010\Projects\CurrencyConvert\Backup\CurrencyConvert\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="CurrencyConvert" Source="CurrencyConvert\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\amanoharan\Documents\Visual Studio 2010\Projects\CurrencyConvert\Backup\CurrencyConvert\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CurrencyConvert" Source="CurrencyConvert\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\amanoharan\Documents\Visual Studio 2010\Projects\CurrencyConvert\Backup\CurrencyConvert\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CurrencyConvert" Source="CurrencyConvert\Properties\Settings.settings" Description="File successfully backed up as C:\Users\amanoharan\Documents\Visual Studio 2010\Projects\CurrencyConvert\Backup\CurrencyConvert\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="CurrencyConvert" Source="CurrencyConvert\Form1.resx" Description="File successfully backed up as C:\Users\amanoharan\Documents\Visual Studio 2010\Projects\CurrencyConvert\Backup\CurrencyConvert\Form1.resx">
+</Event><Event ErrorLevel="0" Project="CurrencyConvert" Source="CurrencyConvert\Properties\Resources.resx" Description="File successfully backed up as C:\Users\amanoharan\Documents\Visual Studio 2010\Projects\CurrencyConvert\Backup\CurrencyConvert\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="CurrencyConvert" Source="CurrencyConvert\CurrencyConvert.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CurrencyConvert" Source="CurrencyConvert\CurrencyConvert.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="CurrencyConvert.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="CurrencyConvert.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CurrencyConvert" Source="CurrencyConvert\CurrencyConvert.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

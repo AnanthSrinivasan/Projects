@@ -1,0 +1,242 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{e3951558-dfd8-4c18-b40e-1219aedfc6b9}</ProjectGuid>
+    <RailsProject>True</RailsProject>
+    <RailsActionView>
+      <Include>ActionView::Helpers::ActiveRecordHelper</Include>
+      <Include>ActionView::Helpers::AssetTagHelper</Include>
+      <Include>ActionView::Helpers::DateHelper</Include>
+      <Include>ActionView::Helpers::FormHelper</Include>
+      <Include>ActionView::Helpers::FormOptionsHelper</Include>
+      <Include>ActionView::Helpers::FormTagHelper</Include>
+      <Include>ActionView::Helpers::JavaScriptHelper</Include>
+      <Include>ActionView::Helpers::NumberHelper</Include>
+      <Include>ActionView::Helpers::PaginationHelper</Include>
+      <Include>ActionView::Helpers::TagHelper</Include>
+      <Include>ActionView::Helpers::UrlHelper</Include>
+    </RailsActionView>
+    <RailsDebugScript>C:\ProgramData\SapphireSteel Software\Ruby In Steel 2010\Scripts\webrick_service.rb</RailsDebugScript>
+    <RubyInterpreter>C:\RailsInstaller\Ruby1.9.3\bin\ruby.exe</RubyInterpreter>
+    <RubyType>Ruby 1.9.3</RubyType>
+    <ServerPort>3000</ServerPort>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="app\assets\images\figo.jpg" />
+    <Content Include="app\assets\images\rails.png" />
+    <Content Include="app\assets\javascripts\application.js" />
+    <Content Include="app\assets\javascripts\cart.js.coffee" />
+    <Content Include="app\assets\javascripts\categories.js.coffee" />
+    <Content Include="app\assets\javascripts\products.js.coffee" />
+    <Content Include="app\assets\stylesheets\application.css" />
+    <Content Include="app\assets\stylesheets\cart.css.scss" />
+    <Content Include="app\assets\stylesheets\categories.css.scss" />
+    <Content Include="app\assets\stylesheets\products.css.scss" />
+    <Content Include="app\assets\stylesheets\scaffolds.css.scss" />
+    <Content Include="app\controllers\application_controller.rb" />
+    <Content Include="app\controllers\cart_controller.rb" />
+    <Content Include="app\controllers\categories_controller.rb" />
+    <Content Include="app\controllers\products_controller.rb" />
+    <Content Include="app\helpers\application_helper.rb" />
+    <Content Include="app\helpers\cart_helper.rb" />
+    <Content Include="app\helpers\categories_helper.rb" />
+    <Content Include="app\helpers\products_helper.rb" />
+    <Content Include="app\models\category.rb" />
+    <Content Include="app\models\product.rb" />
+    <Content Include="app\views\categories\edit.html.erb" />
+    <Content Include="app\views\categories\index.html.erb" />
+    <Content Include="app\views\categories\new.html.erb" />
+    <Content Include="app\views\categories\show.html.erb" />
+    <Content Include="app\views\categories\_form.html.erb" />
+    <Content Include="app\views\layouts\application.html.erb" />
+    <Content Include="app\views\products\edit.html.erb" />
+    <Content Include="app\views\products\index.html.erb" />
+    <Content Include="app\views\products\new.html.erb" />
+    <Content Include="app\views\products\show.html.erb" />
+    <Content Include="app\views\products\_form.html.erb" />
+    <Content Include="config.ru" />
+    <Content Include="config\application.rb" />
+    <Content Include="config\boot.rb" />
+    <Content Include="config\database.yml" />
+    <Content Include="config\environment.rb" />
+    <Content Include="config\environments\development.rb" />
+    <Content Include="config\environments\production.rb" />
+    <Content Include="config\environments\test.rb" />
+    <Content Include="config\initializers\backtrace_silencers.rb" />
+    <Content Include="config\initializers\inflections.rb" />
+    <Content Include="config\initializers\mime_types.rb" />
+    <Content Include="config\initializers\secret_token.rb" />
+    <Content Include="config\initializers\session_store.rb" />
+    <Content Include="config\initializers\wrap_parameters.rb" />
+    <Content Include="config\lighttpd.conf" />
+    <Content Include="config\locales\en.yml" />
+    <Content Include="config\mongrel.yaml" />
+    <Content Include="config\routes.rb" />
+    <Content Include="config\scgi.yaml" />
+    <Content Include="db\development.sqlite3" />
+    <Content Include="db\migrate\20130703084937_create_categories.rb" />
+    <Content Include="db\migrate\20130703093833_create_products.rb" />
+    <Content Include="db\migrate\20130709160946_add_imageurl_to_products.rb" />
+    <Content Include="db\schema.rb" />
+    <Content Include="db\seeds.rb" />
+    <Content Include="doc\README_FOR_APP" />
+    <Content Include="Gemfile" />
+    <Content Include="Gemfile.lock" />
+    <Content Include="public\404.html" />
+    <Content Include="public\422.html" />
+    <Content Include="public\500.html" />
+    <Content Include="public\favicon.ico" />
+    <Content Include="public\images\canstock10676524.jpg" />
+    <Content Include="public\index.html" />
+    <Content Include="public\robots.txt" />
+    <Content Include="Rakefile" />
+    <Content Include="README.rdoc" />
+    <Content Include="script\rails" />
+    <Content Include="test\fixtures\categories.yml" />
+    <Content Include="test\fixtures\products.yml" />
+    <Content Include="test\functional\cart_controller_test.rb" />
+    <Content Include="test\functional\categories_controller_test.rb" />
+    <Content Include="test\functional\products_controller_test.rb" />
+    <Content Include="test\performance\browsing_test.rb" />
+    <Content Include="test\test_helper.rb" />
+    <Content Include="test\unit\category_test.rb" />
+    <Content Include="test\unit\helpers\cart_helper_test.rb" />
+    <Content Include="test\unit\helpers\categories_helper_test.rb" />
+    <Content Include="test\unit\helpers\products_helper_test.rb" />
+    <Content Include="test\unit\product_test.rb" />
+    <Content Include="tmp\cache\assets\C30\B50\sprockets%252F9c952e488e902718b2201592498fa624" />
+    <Content Include="tmp\cache\assets\CB1\B20\sprockets%252F16239ad6d11788c60a769356dd035da5" />
+    <Content Include="tmp\cache\assets\CBC\9D0\sprockets%252Fc046163f389e357a0f797cb57721cb67" />
+    <Content Include="tmp\cache\assets\CC9\280\sprockets%252F35318c1c932403db61091745c2ddc0db" />
+    <Content Include="tmp\cache\assets\CD7\6F0\sprockets%252Fbd3936370d0f952ada5774e2230046ed" />
+    <Content Include="tmp\cache\assets\CD8\370\sprockets%252F357970feca3ac29060c1e3861e2c0953" />
+    <Content Include="tmp\cache\assets\CE9\6A0\sprockets%252F9c13c45ff426b579c098f503345dac75" />
+    <Content Include="tmp\cache\assets\CF0\DA0\sprockets%252Fd7d5b37686831d37c4dd75e645f5e016" />
+    <Content Include="tmp\cache\assets\CF1\E50\sprockets%252F627ffd39f3642a2a236775d77839fac3" />
+    <Content Include="tmp\cache\assets\D15\750\sprockets%252F4cc25a6e69224dc83fed65a4242479c5" />
+    <Content Include="tmp\cache\assets\D32\A10\sprockets%252F13fe41fee1fe35b49d145bcc06610705" />
+    <Content Include="tmp\cache\assets\D3E\E50\sprockets%252F2d9de55bac503a84fe3db6693057e152" />
+    <Content Include="tmp\cache\assets\D4B\EC0\sprockets%252Fb261fa987a3e88f07b352eba69495e3b" />
+    <Content Include="tmp\cache\assets\D4E\1B0\sprockets%252Ff7cbd26ba1d28d48de824f0e94586655" />
+    <Content Include="tmp\cache\assets\D53\410\sprockets%252F97738cf0d921f66818a5e9f6a8e4c1ba" />
+    <Content Include="tmp\cache\assets\D5A\EA0\sprockets%252Fd771ace226fc8215a3572e0aa35bb0d6" />
+    <Content Include="tmp\cache\assets\D6E\4A0\sprockets%252F3f0106d0fc7b1f1ab865458a7d867bfd" />
+    <Content Include="tmp\cache\assets\D73\A60\sprockets%252F249c5d2582ec9dcdeb17448a6770bcc3" />
+    <Content Include="tmp\cache\assets\D9C\4A0\sprockets%252Fc15750bf0161f2878cf9da9bb1a84ecb" />
+    <Content Include="tmp\cache\assets\DDC\400\sprockets%252Fcffd775d018f68ce5dba1ee0d951a994" />
+    <Content Include="tmp\cache\assets\E04\890\sprockets%252F2f5173deea6c795b8fdde723bb4b63af" />
+    <Content Include="tmp\cache\assets\E19\2A0\sprockets%252F10fcfbe6ebae11a40c8eac41939a1b9a" />
+    <Content Include="tmp\cache\assets\E25\4C0\sprockets%252Fde2fd9fd11c04a582cdbbe3d84a35ae6" />
+    <Content Include="tmp\cache\assets\E55\9B0\sprockets%252Fdbe01b84fe24cd4cdc9ebcbf84d0408b" />
+    <Content Include="tmp\cache\sass\65fa0bcf4a0ee4e7665d893fec15fa69ebc4a5f5\categories.css.scssc" />
+    <Content Include="tmp\cache\sass\65fa0bcf4a0ee4e7665d893fec15fa69ebc4a5f5\products.css.scssc" />
+    <Content Include="tmp\cache\sass\65fa0bcf4a0ee4e7665d893fec15fa69ebc4a5f5\scaffolds.css.scssc" />
+    <Content Include="tmp\pids\server.pid" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\" />
+    <Folder Include="app\assets\" />
+    <Folder Include="app\assets\images\" />
+    <Folder Include="app\assets\javascripts\" />
+    <Folder Include="app\assets\stylesheets\" />
+    <Folder Include="app\controllers\" />
+    <Folder Include="app\helpers\" />
+    <Folder Include="app\mailers\" />
+    <Folder Include="app\models\" />
+    <Folder Include="app\views\" />
+    <Folder Include="app\views\cart" />
+    <Folder Include="app\views\categories\" />
+    <Folder Include="app\views\layouts\" />
+    <Folder Include="app\views\products\" />
+    <Folder Include="config\" />
+    <Folder Include="config\environments\" />
+    <Folder Include="config\initializers\" />
+    <Folder Include="config\locales\" />
+    <Folder Include="db\" />
+    <Folder Include="db\migrate\" />
+    <Folder Include="doc\" />
+    <Folder Include="lib\" />
+    <Folder Include="lib\assets\" />
+    <Folder Include="lib\tasks\" />
+    <Folder Include="log\" />
+    <Folder Include="public\" />
+    <Folder Include="public\images\" />
+    <Folder Include="script\" />
+    <Folder Include="test\" />
+    <Folder Include="test\fixtures\" />
+    <Folder Include="test\functional\" />
+    <Folder Include="test\integration\" />
+    <Folder Include="test\performance\" />
+    <Folder Include="test\unit\" />
+    <Folder Include="test\unit\helpers\" />
+    <Folder Include="tmp\" />
+    <Folder Include="tmp\cache\" />
+    <Folder Include="tmp\cache\assets\" />
+    <Folder Include="tmp\cache\assets\C30" />
+    <Folder Include="tmp\cache\assets\C30\B50\" />
+    <Folder Include="tmp\cache\assets\CB1" />
+    <Folder Include="tmp\cache\assets\CB1\B20\" />
+    <Folder Include="tmp\cache\assets\CBC" />
+    <Folder Include="tmp\cache\assets\CBC\9D0\" />
+    <Folder Include="tmp\cache\assets\CC9" />
+    <Folder Include="tmp\cache\assets\CC9\280\" />
+    <Folder Include="tmp\cache\assets\CD7" />
+    <Folder Include="tmp\cache\assets\CD7\6F0\" />
+    <Folder Include="tmp\cache\assets\CD8" />
+    <Folder Include="tmp\cache\assets\CD8\370\" />
+    <Folder Include="tmp\cache\assets\CE9" />
+    <Folder Include="tmp\cache\assets\CE9\6A0\" />
+    <Folder Include="tmp\cache\assets\CF0" />
+    <Folder Include="tmp\cache\assets\CF0\DA0\" />
+    <Folder Include="tmp\cache\assets\CF1" />
+    <Folder Include="tmp\cache\assets\CF1\E50\" />
+    <Folder Include="tmp\cache\assets\D15" />
+    <Folder Include="tmp\cache\assets\D15\750\" />
+    <Folder Include="tmp\cache\assets\D32" />
+    <Folder Include="tmp\cache\assets\D32\A10\" />
+    <Folder Include="tmp\cache\assets\D3E" />
+    <Folder Include="tmp\cache\assets\D3E\E50\" />
+    <Folder Include="tmp\cache\assets\D4B" />
+    <Folder Include="tmp\cache\assets\D4B\EC0\" />
+    <Folder Include="tmp\cache\assets\D4E" />
+    <Folder Include="tmp\cache\assets\D4E\1B0\" />
+    <Folder Include="tmp\cache\assets\D53" />
+    <Folder Include="tmp\cache\assets\D53\410\" />
+    <Folder Include="tmp\cache\assets\D5A" />
+    <Folder Include="tmp\cache\assets\D5A\EA0\" />
+    <Folder Include="tmp\cache\assets\D6E" />
+    <Folder Include="tmp\cache\assets\D6E\4A0\" />
+    <Folder Include="tmp\cache\assets\D73" />
+    <Folder Include="tmp\cache\assets\D73\A60\" />
+    <Folder Include="tmp\cache\assets\D9C" />
+    <Folder Include="tmp\cache\assets\D9C\4A0\" />
+    <Folder Include="tmp\cache\assets\DDC" />
+    <Folder Include="tmp\cache\assets\DDC\400\" />
+    <Folder Include="tmp\cache\assets\E04" />
+    <Folder Include="tmp\cache\assets\E04\890\" />
+    <Folder Include="tmp\cache\assets\E19" />
+    <Folder Include="tmp\cache\assets\E19\2A0\" />
+    <Folder Include="tmp\cache\assets\E25" />
+    <Folder Include="tmp\cache\assets\E25\4C0\" />
+    <Folder Include="tmp\cache\assets\E55" />
+    <Folder Include="tmp\cache\assets\E55\9B0\" />
+    <Folder Include="tmp\cache\sass" />
+    <Folder Include="tmp\cache\sass\65fa0bcf4a0ee4e7665d893fec15fa69ebc4a5f5\" />
+    <Folder Include="tmp\pids\" />
+    <Folder Include="tmp\sessions" />
+    <Folder Include="tmp\sockets" />
+    <Folder Include="vendor\" />
+    <Folder Include="vendor\assets\" />
+    <Folder Include="vendor\assets\javascripts\" />
+    <Folder Include="vendor\assets\stylesheets\" />
+    <Folder Include="vendor\plugins\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SapphireSteel Software\Ruby In Steel 2010\RubyInSteel.targets" />
+</Project>

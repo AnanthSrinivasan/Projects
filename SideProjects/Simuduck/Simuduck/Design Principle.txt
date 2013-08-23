@@ -1,0 +1,18 @@
+Design principles pertaining to this particular pattern or this application
+
+1.	Identify the aspects of your application that vary and separate them
+	from what stays the same.
+2.	Program to an interface and not an implementation.
+3.	Favor Composition over Inheritance.
+
+Inspite of Inheritance being a powerful tool in OO design which gives reuse as its 
+gift to developers. There are always better ways to acheive reuse.
+
+
+Strategy Pattern well defined: (he..he..he..)
+
+	Strategy Pattern defines 
+			a family of algorithms,
+			encapsulates each one,
+			and make them interchangeable.
+	It lets the algorithm vary independently from the clients that use it.

@@ -1,0 +1,8 @@
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\VBVoice Application2\VBVoice Application2\bin\Debug\VBVoice Application2.exe
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\VBVoice Application2\VBVoice Application2\bin\Debug\VBVoice Application2.pdb
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\VBVoice Application2\VBVoice Application2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\VBVoice Application2\VBVoice Application2\obj\Debug\VBVoice_Application2.Form1.resources
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\VBVoice Application2\VBVoice Application2\obj\Debug\VBVoice_Application2.Properties.Resources.resources
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\VBVoice Application2\VBVoice Application2\obj\Debug\VBVoice Application2.csproj.GenerateResource.Cache
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\VBVoice Application2\VBVoice Application2\obj\Debug\VBVoice Application2.exe
+C:\Users\Ananth\Documents\Visual Studio 2008\Projects\VBVoice Application2\VBVoice Application2\obj\Debug\VBVoice Application2.pdb

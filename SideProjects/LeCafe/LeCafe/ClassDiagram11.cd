@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Beverage" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAIIAAAAAAAAAQAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Beverage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HouseBlend" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>HouseBlend.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FrenchVennila" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABABAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FrenchVennila.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Expresso" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAYAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Expresso.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condiment" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAACAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Condiment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soy" Collapsed="true">
+    <Position X="12" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAIAAAAAAAAAQAQAAAAAAAAAAAAE=</HashCode>
+      <FileName>Soy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mocha" Collapsed="true">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAgAAAIAAAAAAAAAQAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Mocha.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Whip" Collapsed="true">
+    <Position X="9.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAIAAAAAAAAAQAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Whip.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

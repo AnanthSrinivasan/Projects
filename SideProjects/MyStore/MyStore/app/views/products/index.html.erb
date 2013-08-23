@@ -1,0 +1,43 @@
+<h1>Listing products</h1>
+
+<!--<script type = "text/javascript">
+	$(document).ready(function() {
+		/* This is basic - uses default settings */
+		$("a.flickr_photo").fancybox({'type': 'image'});	/*a.flickr_photo is for creating flickr_photo class that too within  fancybox*/
+		$("a.flickr_ajax").fancybox();						/* in the same way , flickr_ajax is another class , */
+		/* we ll create different class and ll reference to those class where we want */
+	};
+</script>-->
+
+<style type="text/css">
+	.name {
+		font-size: 24pt;
+		font-weight: bold;
+		margin-bottom;
+	}
+
+</style>
+
+<table>
+<% @products.each do |product| %>
+  <tr>
+	<td>
+	<a class='flickr_photo' href="<%=product.imageurl%>">
+	<%= link_to image_tag(product.imageurl, :size => "200x200"), product %>	
+	</td>
+	<td>
+    <div class="name"><%= link_to product.name, product %></div>
+    <div class="description"><%= product.description %></div>
+    <div class="category"><%= product.category.name %></div>
+    <div class="links"><%= link_to 'Show', product %> | <%= link_to 'Edit', edit_product_path(product) %> | <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %> </div>
+	</td>
+  </tr>
+  <tr>
+	<td colspan="2"><hr/></td>
+  </tr>
+<% end %>
+</table>
+
+<br/>
+
+<%= link_to 'New Product', new_product_path %>
